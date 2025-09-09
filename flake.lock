@@ -1,0 +1,57 @@
+{
+  "nodes": {
+    "asahi-widevine": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1723388729,
+        "narHash": "sha256-ox2xU7PraSexer7+M+4Bc5gxpRYr1d4elh1e6erpsUg=",
+        "owner": "AsahiLinux",
+        "repo": "widevine-installer",
+        "rev": "eab8c668ad3f9db27a444ee1f94b82d8f3ab5336",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AsahiLinux",
+        "repo": "widevine-installer",
+        "type": "github"
+      }
+    },
+    "lacros": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-+BvpWlYv4E0XSmnL0gGISUp0WflexbKtYnNE293nik0=",
+        "type": "file",
+        "url": "https://commondatastorage.googleapis.com/chromeos-localmirror/distfiles/chromeos-lacros-arm64-squash-zstd-120.0.6098.0"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://commondatastorage.googleapis.com/chromeos-localmirror/distfiles/chromeos-lacros-arm64-squash-zstd-120.0.6098.0"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1757347588,
+        "narHash": "sha256-tLdkkC6XnsY9EOZW9TlpesTclELy8W7lL2ClL+nma8o=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b599843bad24621dcaa5ab60dac98f9b0eb1cabe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "asahi-widevine": "asahi-widevine",
+        "lacros": "lacros",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
